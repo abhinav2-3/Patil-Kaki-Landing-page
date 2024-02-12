@@ -5,7 +5,7 @@ const SlideUpForm = () => {
   const [showForm, setShowForm] = useState(false);
 
   useEffect(() => {
-    const timeoutId = setTimeout(() => setShowForm(true), 3000);
+    const timeoutId = setTimeout(() => setShowForm(true), 15000);
     return () => clearTimeout(timeoutId);
   }, []);
 
